@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "digi";
+    src: url("../font/ds-digi.ttf");
+}
+
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    margin: 5px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.display{
+    
+    background-color: lightgray;
+    width: 300px;
+    height: 70px;
+    border: solid 1px;
+    border-radius: 5px;
+    font-family: digi;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+button{
+    width: 70px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+.display p{
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+}
+
+.calculette{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 530px;
+    background-color: teal;
+    border-radius: 10px;
+    border: solide 1px;
+}
